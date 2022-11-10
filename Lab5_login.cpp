@@ -694,32 +694,6 @@ void Library::increase_no_of_copy(string title_name, string author_name, int x =
     }
 }
 
-// this function delete book from issed list
-
-// void User::delete_from_issue_book(string title_name, string author_name)
-// {
-//     node *ptr1 = issue_book;
-//     if (ptr1->title == title_name && ptr1->author == author_name)
-//     {
-//         issue_book = issue_book->next;
-//         free(ptr1);
-//     }
-//     else
-//     {
-//         while (ptr1->next != NULL)
-//         {
-//             if (ptr1->next->title == title_name && ptr1->next->author == author_name)
-//             {
-//                 break;
-//             }
-//             ptr1 = ptr1->next;
-//         }
-//         node *temp = ptr1->next;
-//         ptr1->next = ptr1->next->next;
-//         free(temp);
-//     }
-// }
-
 // this function checks for fine
 
 void User::checkFine(string title_name, string author_name, string user_name, string date)
